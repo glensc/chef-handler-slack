@@ -3,6 +3,12 @@
 The chef-handler-slack gem is a Chef report mechanism that sends
 failures to a Slack channel.
 
+## Deprecated
+
+Recent Slack changes no longer accept the team specific webhook urls, so this gem does not work anymore.
+
+It is recommended to use [rackspace-cookbooks/chef-slack_handler](https://github.com/rackspace-cookbooks/chef-slack_handler) instead of this gem.
+
 ## Usage
 
 Create a new recipe, with the following contents, and add it to the runlist of your base role in Chef:
